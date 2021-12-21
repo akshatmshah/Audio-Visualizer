@@ -89,13 +89,13 @@ To get a local copy up and running follow these simple example steps.
  2. To change any input, navigate to `src/device.py` and change the device id to one displayed in the console after executing main (if an invalid one is chosen it will choose a valid one by default)
  
   #### Audio
-<img src='images/audio.png' alt="alt text" width="250" height = "250"/>
+<img src='images/audio.png' alt="alt text" width="50%" height = "50%"/>
 
   #### No Audio
- <img src='images/no-audio.png' alt="alt text" width="250" height = "250"/>
+ <img src='images/no-audio.png' alt="alt text" width="50%" height = "50%"/>
  
    #### Console Output
- <img src='images/console.png' alt="alt text" width="250" height = "250"/>
+ <img src='images/console.png' alt="alt text" width="50%" height = "50%"/>
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
