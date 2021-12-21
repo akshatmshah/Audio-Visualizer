@@ -32,11 +32,14 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This application is a simple audio visualizer that takes in input through the microphone and gives a waveform representation and a diatonic representation of audio. 
+This application is a simple audio visualizer that takes in input through the microphone and gives a waveform representation and a frequency representation of audio. 
 
 I created an Audio Visulizer class that uses two magic methods: init and str. Init helps initializer our instance without any extra call and str, a quality of life method, helped with printing data to see if it was correctly normalized and processed.
 
-First, the microphone stream was read. We were then able to do our respective operations on this data to determine the waveform and diatonic representation. For the diatonic representation, we know that different notes exist at different frequencies. Thus, if we were able to extract this we could plot this across a human understandable range to see the peaks in audio. Furthermore, we know that a Fast Fourier Transform will return the sample frequencies. After rescaling and normalizing this data we can plot it. For the waveform, we simple normalize the incoming data and plot it to see how our sound looks. 
+First, the microphone stream was read. We were then able to do our respective operations on this data to determine the waveform and frequency representation. For the diatonic representation, we know that different notes exist at different frequencies. Thus, if we were able to extract this we could plot this across a human understandable range to see the peaks in audio. Furthermore, we know that a Fast Fourier Transform will return the sample frequencies. After rescaling and normalizing this data we can plot it. For the waveform, we simple normalize the incoming data and plot it to see how our sound looks. 
+
+### Design
+Visualizer was used to create the actual visualizer (which updates and displays frequency and waveform). Device.py helps determine what device will be use as input. Finally, main compiles both and these and is used to run the application.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
