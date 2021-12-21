@@ -1,6 +1,6 @@
 
 <div id="top"></div>
-<div align="center"
+<div align="center">
 
 <h1 align="center">Audio Visualizer</h1>
 
@@ -90,11 +90,11 @@ To get a local copy up and running follow these simple example steps.
  2. To change any input, navigate to `src/device.py` and change the device id to one displayed in the console after executing main (if an invalid one is chosen it will choose a valid one by default)
  
   #### Audio
-![alt text](<images/audio>)
+![alt text](<images/audio.png>)
   #### No Audio
-  ![alt text](<images/no-audio>)
+  ![alt text](<images/no-audio.png>)
    #### Console Output
-   ![alt text](<images/console>)
+   ![alt text](<images/console.png>)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
