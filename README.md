@@ -1,6 +1,5 @@
 
 <div id="top"></div>
-<div align="center">
 
 <h1 align="center">Audio Visualizer</h1>
 
