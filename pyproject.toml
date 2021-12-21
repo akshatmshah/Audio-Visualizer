@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "audio_vis"
+version = "0.1.0"
+description = "Audio Visualizer"
+authors = ["Akshat Shah"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.11"
+numpy = "^1.21.4"
+PyAudio = "^0.2.11"
+pyqtgraph = "^0.12.3"
+PyQt5 = "^5.15.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
