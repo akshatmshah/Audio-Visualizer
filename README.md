@@ -67,7 +67,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   https://github.com/akshatmshah/Audio-Visualizer
+   git clone https://github.com/akshatmshah/Audio-Visualizer
    ```
 2. Go to the cloned directory
    ```sh
